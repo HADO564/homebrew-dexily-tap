@@ -1,25 +1,25 @@
 class Dexily < Formula
   desc "Track your projects from the terminal: the command line for Project Indexer"
   homepage "https://github.com/HADO564/project-indexer"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.0/dexily-aarch64-apple-darwin.tar.xz"
-      sha256 "66c60634cb09f7dc7c2b112da9bcf9ea5bb2a90726d61b9b2eb20648363cdc99"
+      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.1/dexily-aarch64-apple-darwin.tar.xz"
+      sha256 "3e5d4cf3efdfa8176beee14c2ef612a8c9ea52d72a3244816c25675bee345537"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.0/dexily-x86_64-apple-darwin.tar.xz"
-      sha256 "48df294ed0bc2544cb388a271b763ae88826928d82ddcc1e60c33ccfc4333a65"
+      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.1/dexily-x86_64-apple-darwin.tar.xz"
+      sha256 "9c12f64d0488b5a9e35666f4ea22d457683d26d7ebbb4b4f009b24d56fff7b84"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.0/dexily-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "12a893fe1e2ded4261f778ff8ffa002fef1c1ec74b90930b2db2d5a0dc54b15f"
+      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.1/dexily-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "562a8d113fcd9e9189fd74c43591c9c357ec6caf17384681b7b1c4cdd8618b36"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.0/dexily-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "7d0d446d21f4fbd987abe4dcfb4bed95f543835588e1391b9192a52e137a38be"
+      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.1/dexily-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "f9b2f15a64fa7c66dbca1432b02442cbc2965088f5c3883c147d54f703b9877f"
     end
   end
 
