@@ -1,25 +1,25 @@
 class Dexily < Formula
   desc "Track your projects from the terminal: the command line for Project Indexer"
   homepage "https://github.com/HADO564/project-indexer"
-  version "0.3.1"
+  version "0.3.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.1/dexily-aarch64-apple-darwin.tar.xz"
-      sha256 "3e5d4cf3efdfa8176beee14c2ef612a8c9ea52d72a3244816c25675bee345537"
+      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.2/dexily-aarch64-apple-darwin.tar.xz"
+      sha256 "d87ca8303a5d690d7ca14e322a32b28ee201e4f2e6cf46b008403c32df2c1a60"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.1/dexily-x86_64-apple-darwin.tar.xz"
-      sha256 "9c12f64d0488b5a9e35666f4ea22d457683d26d7ebbb4b4f009b24d56fff7b84"
+      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.2/dexily-x86_64-apple-darwin.tar.xz"
+      sha256 "b423d6a5a594eab8a7056c46cdf675838fd339ea5b026610478c7b6bba643760"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.1/dexily-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "562a8d113fcd9e9189fd74c43591c9c357ec6caf17384681b7b1c4cdd8618b36"
+      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.2/dexily-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "0f6d4023f8fbd4ee140474691594936812fd3789755475fcff5a400deeec2109"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.1/dexily-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "f9b2f15a64fa7c66dbca1432b02442cbc2965088f5c3883c147d54f703b9877f"
+      url "https://github.com/HADO564/project-indexer/releases/download/dexily-v0.3.2/dexily-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "1adae0afb0341a657d1d2cd3704d9e7f7c8740a141bfc7882dca1dc4f1ae911a"
     end
   end
 
